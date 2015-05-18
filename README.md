@@ -1,3 +1,9 @@
 # ContentBySearchLite
 
-Sample code from presentaion made by Garry Trinder at SharePoint User Group (SUGUK) Nottingham on Thursday 30th April 2015 at Strelley Hall, Nottingham.
+Sample code from presentation made by Garry Trinder at SharePoint User Group (SUGUK) Nottingham on Thursday 30th April 2015 at Strelley Hall, Nottingham.
+
+**Presentation**
+
+Building SharePoint Client-side Web Components
+
+This session will cover client side development using jQuery plugin development, Handlebars templating and the SharePoint 2013 REST APIs to create reusable, configurable and extendable SharePoint components.
