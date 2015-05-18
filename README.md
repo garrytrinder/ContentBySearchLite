@@ -4,6 +4,6 @@ Sample code from presentation made by Garry Trinder at SharePoint User Group (SU
 
 [**Presentation**](https://github.com/garrytrinder/ContentBySearchLite/blob/master/Presentation/BuildingClientSideSharePointComponents.pptx)
 
-Building SharePoint Client-side Web Components
+Building SharePoint Client Components
 
 This session will cover client side development using jQuery plugin development, Handlebars templating and the SharePoint 2013 REST APIs to create reusable, configurable and extendable SharePoint components.
