@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Description="A client side web part to easily display search results from SharePoint Search REST API using jQuery and Handlebars templates." Id="a4465a14-aa57-412d-b3aa-ae15747efa53" Scope="Site" Title="Content By Search Lite">
+  <ElementManifests>
+    <ElementManifest Location="ContentBySearchLiteAssets\Elements.xml" />
+    <ElementFile Location="ContentBySearchLiteAssets\js\contentBySearchLite.js" />
+    <ElementFile Location="ContentBySearchLiteAssets\js\handlebarsHelpers.js" />
+    <ElementFile Location="ContentBySearchLiteAssets\hbs\basic.hbs" />
+    <ElementFile Location="ContentBySearchLiteAssets\hbs\noresults.hbs" />
+    <ElementFile Location="ContentBySearchLiteAssets\hbs\people.hbs" />
+    <ElementFile Location="ContentBySearchLiteAssets\css\basic.css" />
+    <ElementFile Location="ContentBySearchLiteAssets\css\people.css" />
+    <ElementManifest Location="ContentBySearchLiteWebPart\Elements.xml" />
+    <ElementFile Location="ContentBySearchLiteWebPart\ContentBySearchLite.webpart" />
+    <ElementManifest Location="ContentBySearchLitePeopleWebPart\Elements.xml" />
+    <ElementFile Location="ContentBySearchLitePeopleWebPart\ContentBySearchLitePeople.webpart" />
+  </ElementManifests>
+</Feature>

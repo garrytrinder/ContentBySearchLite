@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="bb4daf30-c26b-442f-8e0e-5664a2f776a2" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="ContentBySearchLite.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="ContentBySearchLite_ContentBySearchLite\Feature.xml" />
+  </FeatureManifests>
+</Solution>

@@ -1,0 +1,5 @@
+C:\Other\content-by-search-lite\content-by-search-lite\bin\Debug\content-by-search-lite.dll
+C:\Other\content-by-search-lite\content-by-search-lite\bin\Debug\content-by-search-lite.pdb
+C:\Other\content-by-search-lite\content-by-search-lite\obj\Debug\content-by-search-lite.dll
+C:\Other\content-by-search-lite\content-by-search-lite\obj\Debug\content-by-search-lite.pdb
+C:\Other\content-by-search-lite\content-by-search-lite\obj\Debug\content-by-search-lite.csprojResolveAssemblyReference.cache

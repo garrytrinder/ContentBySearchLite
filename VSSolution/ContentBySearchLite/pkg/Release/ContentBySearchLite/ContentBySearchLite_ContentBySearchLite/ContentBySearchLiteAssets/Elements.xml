@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="ContentBySearchLiteAssets" Url="Style Library/idlive">
+    <File Path="ContentBySearchLiteAssets\js\contentbysearchlite.js" Url="contentbysearchlite/js/contentbysearchlite.js" Type="GhostableInLibrary" />
+    <File Path="ContentBySearchLiteAssets\js\handlebarshelpers.js" Url="contentbysearchlite/js/handlebarshelpers.js" Type="GhostableInLibrary" />
+    <File Path="ContentBySearchLiteAssets\hbs\basic.hbs" Url="contentbysearchlite/hbs/basic.hbs" Type="GhostableInLibrary" />
+    <File Path="ContentBySearchLiteAssets\hbs\noresults.hbs" Url="contentbysearchlite/hbs/noresults.hbs" Type="GhostableInLibrary" />
+    <File Path="ContentBySearchLiteAssets\hbs\people.hbs" Url="contentbysearchlite/hbs/people.hbs" Type="GhostableInLibrary" />
+    <File Path="ContentBySearchLiteAssets\css\basic.css" Url="contentbysearchlite/css/basic.css" Type="GhostableInLibrary" />
+    <File Path="ContentBySearchLiteAssets\css\people.css" Url="contentbysearchlite/css/people.css" Type="GhostableInLibrary" />
+  </Module>
+</Elements>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="bb4daf30-c26b-442f-8e0e-5664a2f776a2" solutionId="bb4daf30-c26b-442f-8e0e-5664a2f776a2" resetWebServer="false" title="ContentBySearchLite" description="A client side web part to easily display search results from SharePoint Search REST API using jQuery and Handlebars templates." sharePointProductVersion="15.0" name="ContentBySearchLite" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="ee8de8b4-4487-4dfa-844f-268593815b8b" />
+  </features>
+</package>

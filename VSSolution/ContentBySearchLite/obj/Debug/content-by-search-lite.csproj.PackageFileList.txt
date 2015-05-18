@@ -1,0 +1,1 @@
+bin\Debug\content_by_search_lite.wsp

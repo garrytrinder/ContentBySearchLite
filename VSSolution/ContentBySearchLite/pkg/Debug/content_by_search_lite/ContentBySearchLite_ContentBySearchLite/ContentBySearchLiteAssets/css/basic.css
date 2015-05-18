@@ -1,0 +1,29 @@
+﻿.contentbysearchlite-basic {
+    display: table;
+    border: 1px solid blue;
+}
+
+.contentbysearchlite-basic-item {
+    display: table;
+    border-top: 1px solid black;
+}
+
+.contentbysearchlite-basic-column-left {
+    display: table-cell;
+    width: 210px;
+}
+
+.contentbysearchlite-basic-column-middle {
+    display: table-cell;
+    width: 500px;
+}
+
+.contentbysearchlite-basic-column-right {
+    display: table-cell;
+    width: 100px;
+}
+
+.contentbysearchlite-basic-column-middle p {
+    width: 500px;
+    overflow-wrap: break-word;
+}

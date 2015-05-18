@@ -1,0 +1,4 @@
+C:\Other\content-by-search-lite\content-by-search-lite\bin\Debug\ContentBySearchLite.dll
+C:\Other\content-by-search-lite\content-by-search-lite\bin\Debug\ContentBySearchLite.pdb
+C:\Other\content-by-search-lite\content-by-search-lite\obj\Debug\ContentBySearchLite.dll
+C:\Other\content-by-search-lite\content-by-search-lite\obj\Debug\ContentBySearchLite.pdb

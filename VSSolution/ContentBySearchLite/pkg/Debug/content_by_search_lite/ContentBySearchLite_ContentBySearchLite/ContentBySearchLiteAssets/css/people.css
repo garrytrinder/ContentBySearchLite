@@ -1,0 +1,42 @@
+﻿.contentbysearchlite-container {
+    display: table;
+}
+
+.contentbysearchlite-people {
+    overflow: auto;
+}
+
+.contentbysearchlite-people a {
+    display: table;
+    background-color: #2980b9;
+}
+
+img.contentbysearchlite-people-image {
+    border-radius: 100px;
+    border: 4px solid #ffffff;
+    width: 70px;
+    display: table-cell;
+    margin: 10px;
+}
+
+.contentbysearchlite-people-info {
+    display: table-cell;
+    vertical-align: middle;    
+    width: 200px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.contentbysearchlite-people a:hover {
+    background-color: #3498db;
+    text-decoration: none;
+    color: white;
+}
+
+.contentbysearchlite-people-info h3 {
+    color: white;
+}
+
+.contentbysearchlite-people-info h4 {
+    color: white;
+}

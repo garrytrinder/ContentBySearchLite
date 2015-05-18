@@ -1,0 +1,14 @@
+﻿{{#each results}}
+<div class="contentbysearchlite-people">
+    <a href="{{getValueByKey 'Path' Cells}}">
+        <img class="contentbysearchlite-people-image" src="{{getProfilePicture Cells}}" />
+        <div class="contentbysearchlite-people-info">
+            <h3>
+                <strong>{{getValueByKey 'PreferredName' Cells}}</strong>
+            </h3>
+            <h4>{{getValueByKey 'JobTitle' Cells}}</h4>
+            <h4>{{getValueByKey 'WorkEmail' Cells}}</h4>
+        </div>
+    </a>
+</div>
+{{/each}}

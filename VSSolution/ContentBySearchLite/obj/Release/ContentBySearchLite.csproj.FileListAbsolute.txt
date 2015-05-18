@@ -1,0 +1,9 @@
+C:\Other\content-by-search-lite\content-by-search-lite\bin\Release\ContentBySearchLite.dll
+C:\Other\content-by-search-lite\content-by-search-lite\bin\Release\ContentBySearchLite.pdb
+C:\Other\content-by-search-lite\content-by-search-lite\obj\Release\ContentBySearchLite.dll
+C:\Other\content-by-search-lite\content-by-search-lite\obj\Release\ContentBySearchLite.pdb
+C:\Other\ContentBySearchLite\ContentBySearchLite\bin\Release\ContentBySearchLite.dll
+C:\Other\ContentBySearchLite\ContentBySearchLite\bin\Release\ContentBySearchLite.pdb
+C:\Other\ContentBySearchLite\ContentBySearchLite\obj\Release\ContentBySearchLite.csprojResolveAssemblyReference.cache
+C:\Other\ContentBySearchLite\ContentBySearchLite\obj\Release\ContentBySearchLite.dll
+C:\Other\ContentBySearchLite\ContentBySearchLite\obj\Release\ContentBySearchLite.pdb

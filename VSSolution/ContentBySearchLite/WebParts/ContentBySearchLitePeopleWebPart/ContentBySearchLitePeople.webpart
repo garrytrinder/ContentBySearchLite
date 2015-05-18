@@ -1,0 +1,58 @@
+﻿<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="Microsoft.SharePoint.WebPartPages.ScriptEditorWebPart, Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
+      <importErrorMessage>Cannot import this Web Part.</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="ExportMode" type="exportmode">All</property>
+        <property name="HelpUrl" type="string" />
+        <property name="Hidden" type="bool">False</property>
+        <property name="Description" type="string">Returns people from Search based upon the department name passed in the options.</property>
+        <property name="Content" type="string">&lt;script&gt;window.jQuery || document.write('&lt;script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.2/jquery.js" type="text/javascript"&gt;&lt;\/script&gt;')&lt;/script&gt;
+&lt;script&gt;window.Handlebars || document.write('&lt;script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.2/handlebars.min.js" type="text/javascript"&gt;&lt;\/script&gt;')&lt;/script&gt;
+&lt;script&gt;window.moment || document.write('&lt;script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.2/moment.min.js" type="text/javascript"&gt;&lt;\/script&gt;')&lt;/script&gt;
+&lt;script&gt;document.write('&lt;script src="' + _spPageContextInfo.siteAbsoluteUrl + '/Style Library/idlive/contentbysearchlite/js/contentbysearchlite.js" type="text/javascript"&gt;&lt;\/script&gt;')&lt;/script&gt;
+&lt;script&gt;document.write('&lt;script src="' + _spPageContextInfo.siteAbsoluteUrl + '/Style Library/idlive/contentbysearchlite/js/handlebarshelpers.js" type="text/javascript"&gt;&lt;\/script&gt;')&lt;/script&gt;
+&lt;script&gt;document.write('&lt;link rel="stylesheet" href="' + _spPageContextInfo.siteAbsoluteUrl + '/Style Library/idlive/contentbysearchlite/css/people.css" type="text/css"&gt;&lt;\/link&gt;')&lt;/script&gt;
+
+&lt;div id="contentbysearchlite-people-container" class="contentbysearchlite-people-container"&gt;&lt;/div&gt;
+
+&lt;script type="text/javascript"&gt;
+_spBodyOnLoadFunctionNames.push("people");
+
+function people(){
+  var options = {
+    params: {
+      "querytext": "'Department:Content Management Consulting'",
+      "sourceid": "'B09A7990-05EA-4AF9-81EF-EDFAB16C4E31'"
+    },
+    display: "people.hbs",
+    noresults: "noresults.hbs"
+  }
+
+  jQuery("#contentbysearchlite-people-container").contentBySearchLite(options);
+}
+&lt;/script&gt;
+</property>
+        <property name="CatalogIconImageUrl" type="string" />
+        <property name="Title" type="string">People by Department</property>
+        <property name="AllowHide" type="bool">True</property>
+        <property name="AllowMinimize" type="bool">True</property>
+        <property name="AllowZoneChange" type="bool">True</property>
+        <property name="TitleUrl" type="string" />
+        <property name="ChromeType" type="chrometype">TitleOnly</property>
+        <property name="AllowConnect" type="bool">True</property>
+        <property name="Width" type="unit" />
+        <property name="Height" type="unit" />
+        <property name="HelpMode" type="helpmode">Navigate</property>
+        <property name="AllowEdit" type="bool">True</property>
+        <property name="TitleIconImageUrl" type="string" />
+        <property name="Direction" type="direction">NotSet</property>
+        <property name="AllowClose" type="bool">True</property>
+        <property name="ChromeState" type="chromestate">Normal</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>

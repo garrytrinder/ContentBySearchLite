@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="ContentBySearchLiteAssets\" Type="ElementManifest" />
+    <ProjectItemFile Source="js\contentBySearchLite.js" Target="ContentBySearchLiteAssets\js\" Type="ElementFile" />
+    <ProjectItemFile Source="js\handlebarsHelpers.js" Target="ContentBySearchLiteAssets\js\" Type="ElementFile" />
+    <ProjectItemFile Source="hbs\basic.hbs" Target="ContentBySearchLiteAssets\hbs\" Type="ElementFile" />
+    <ProjectItemFile Source="hbs\noresults.hbs" Target="ContentBySearchLiteAssets\hbs\" Type="ElementFile" />
+    <ProjectItemFile Source="hbs\people.hbs" Target="ContentBySearchLiteAssets\hbs\" Type="ElementFile" />
+    <ProjectItemFile Source="css\basic.css" Target="ContentBySearchLiteAssets\css\" Type="ElementFile" />
+    <ProjectItemFile Source="css\people.css" Target="ContentBySearchLiteAssets\css\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

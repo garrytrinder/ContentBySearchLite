@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="ContentBySearchLiteWebPart" Url="_catalogs/wp">
+    <File Path="ContentBySearchLiteWebPart\ContentBySearchLite.webpart"
+          Url="ContentBySearchLite.webpart"
+          Type="GhostableInLibrary">
+      <Property Name="Group" Value="ContentBySearchLite"/>      
+    </File>
+  </Module>
+</Elements>
