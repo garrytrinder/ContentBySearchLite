@@ -2,7 +2,7 @@
 
 Sample code from presentation made by Garry Trinder at SharePoint User Group (SUGUK) Nottingham on Thursday 30th April 2015 at Strelley Hall, Nottingham.
 
-[**Presentation**](https://github.com/garrytrinder/ContentBySearchLite/blob/master/Presentation/BuildingSharePointClient Components.pptx)
+[**Presentation**](https://github.com/garrytrinder/ContentBySearchLite/blob/master/Presentation/BuildingSharePointClientComponents.pptx)
 
 Building SharePoint Client Components
 
