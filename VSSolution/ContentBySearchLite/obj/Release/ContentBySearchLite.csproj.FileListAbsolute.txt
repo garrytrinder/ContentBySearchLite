@@ -7,3 +7,8 @@ C:\Other\ContentBySearchLite\ContentBySearchLite\bin\Release\ContentBySearchLite
 C:\Other\ContentBySearchLite\ContentBySearchLite\obj\Release\ContentBySearchLite.csprojResolveAssemblyReference.cache
 C:\Other\ContentBySearchLite\ContentBySearchLite\obj\Release\ContentBySearchLite.dll
 C:\Other\ContentBySearchLite\ContentBySearchLite\obj\Release\ContentBySearchLite.pdb
+E:\GitRepo\ContentBySearchLite\VSSolution\ContentBySearchLite\bin\Release\ContentBySearchLite.dll
+E:\GitRepo\ContentBySearchLite\VSSolution\ContentBySearchLite\bin\Release\ContentBySearchLite.pdb
+E:\GitRepo\ContentBySearchLite\VSSolution\ContentBySearchLite\obj\Release\ContentBySearchLite.csprojResolveAssemblyReference.cache
+E:\GitRepo\ContentBySearchLite\VSSolution\ContentBySearchLite\obj\Release\ContentBySearchLite.dll
+E:\GitRepo\ContentBySearchLite\VSSolution\ContentBySearchLite\obj\Release\ContentBySearchLite.pdb

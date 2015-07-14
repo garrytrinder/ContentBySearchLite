@@ -17,7 +17,7 @@
         defaults = {
             params: {
                 "querytext": "'SharePoint'",
-                "selectproperties": "'Title,Description,Author,Path'"
+                "selectproperties": "'Title, Description, Author, Path'"
             },
             display: "basic.hbs",
             noresults: "noresults.hbs"
@@ -60,7 +60,7 @@
         },
         isPageInEditMode: function () {
             var that = this;
-
+                        
             if (that.isWikiPage) {
                 var val = jQuery("#_wikiPageMode").attr("value");
                 if (val === "Edit") {
@@ -78,26 +78,27 @@
             var that = this;
 
             // return message to page and end plugin code
-            that.$element.html("<p><i>Page in Edit Mode. Edit the web part, click Edit Snippet"
-                + "and change options to change Content By Search Lite behaviour." 
-                + "Save the page to persist changes.</i></p>");
+            that.$element.html("<p><i>Page in Edit Mode. Edit the web part, click Edit Snippet \
+                and change options to change Content By Search Lite behaviour. \
+                Save the page to persist changes.</i></p>");
         },
         displayMode: function () {
-            var that = this;
-
-            // store promises in array
-            var $promises = [];
+            var that = this,
+                $promises = [],
+                display,
+                noresults,
+                results;
 
             // create display template promise
-            var display = that.getTemplate(that.options.display);
+            display = that.getTemplate(that.options.display);
             $promises.push(display);
 
             // create noresults template promise
-            var noresults = that.getTemplate(that.options.noresults);
+            noresults = that.getTemplate(that.options.noresults);
             $promises.push(noresults);
 
             // create sharepoint search results promise
-            var results = that.getResults(that.searchEndPoint, that.options.params);
+            results = that.getResults(that.searchEndPoint, that.options.params);
             $promises.push(results);
 
             // wait till all promises in array have completed, then mix the templates and data
@@ -128,11 +129,10 @@
             });
         },
         mix: function (schemas) {
-            var that = this;
-
-            var displaytemplate = schemas[0][0];
-            var noresultstemplate = schemas[1][0];
-            var results = that.getRelevantResults(schemas[2][0]);
+            var that = this,
+                displaytemplate = schemas[0][0],
+                noresultstemplate = schemas[1][0],
+                results = that.getRelevantResults(schemas[2][0]);
 
             // check to see if we have results and chose the correct template
             results.length !== 0
@@ -140,22 +140,25 @@
                 : that.display(results, noresultstemplate);
         },
         display: function (results, template) {
-            var that = this;
+            var that = this,
+                compiledTemplate,
+                wrapper,
+                outputHtml;
 
             // compile handlebars template to JS variable
-            var compiledTemplate = Handlebars.compile(template);
+            compiledTemplate = Handlebars.compile(template);
 
             // wrap results JSON to make it easier to loop in handlebar template
-            var wrapper = { "results": results }
+            wrapper = { "results": results }
 
             // mix wrapped JSON with handlebars template to generate HTML
-            var outputHtml = compiledTemplate(wrapper);
+            outputHtml = compiledTemplate(wrapper);
 
             // set container element HTML
             that.$element.html(outputHtml);
         },
         getRelevantResults: function (data) {
-            //trims down the response from SharePoint to get the actual results
+            //trims down the response from SharePoint to get the actual result rows
             return data.PrimaryQueryResult.RelevantResults.Table.Rows;
         }
     };
